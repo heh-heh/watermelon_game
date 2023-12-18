@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class gamemanager : MonoBehaviour
 {
@@ -13,17 +14,18 @@ public class gamemanager : MonoBehaviour
     public List<GameObject> f_list = new List<GameObject>();
     static public  List<GameObject> f_list_static = new List<GameObject>();
     public Transform drop_pos;
-    
+    public TextMeshProUGUI txt;
     void Start()
     {
         f_list_static = f_list;
-        //fulit_drop.drop_f();
+        fulit_drop.drop_f();
 
     }
 
     // Update is called once per frame
     void Update()
     {
+        txt.text = ""+score;
         game_over2=game_over;
         if(game_over) {
             Time.timeScale =0;

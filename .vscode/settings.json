@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "-_-_-.sln"
+    "dotnet.defaultSolution": "watermelon_game.sln"
 }

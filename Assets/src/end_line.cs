@@ -6,7 +6,6 @@ using TMPro;
 public class end_line : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float s = 0;
 
 
     public int f_stay  = 0;
@@ -23,12 +22,12 @@ public class end_line : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag == "f"){
-            f_stay++;Debug.Log(f_stay);
+            f_stay++;
         }
     }
     private void OnTriggerExit2D(Collider2D other) {
         if(other.tag == "f"){
-            f_stay--;Debug.Log(f_stay);
+            f_stay--;
         }
     }
 }

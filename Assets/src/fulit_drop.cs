@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class fulit_drop : MonoBehaviour
@@ -17,8 +18,8 @@ public class fulit_drop : MonoBehaviour
     }
     static public void drop_f(){
         Transform drop_pos;
-        drop_pos = GameObject.FindGameObjectWithTag("drop_obj").GetComponent<Transform>();
+        drop_pos = GameObject.FindGameObjectWithTag("drop").GetComponent<Transform>();
         int f_level = Random.Range(0,2);
-        GameObject ff = Instantiate(gamemanager.f_list_static[f_level], drop_pos);
-    }
+        Instantiate(gamemanager.f_list_static[f_level], drop_pos);
+    }   
 }
