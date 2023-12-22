@@ -3,8 +3,6 @@
 # 소개
 수박게임이 유행을 타며 저도 수박게임을 만들고 싶어 수박게임을 만들어 보게 되었습니다 :>
 
-![수박게임사진](https://github.com/heh-heh/watermelon_game/blob/main/%EC%88%98%EB%B0%95%EA%B2%8C%EC%9E%84.png)   
-
 ![Static Badge](https://img.shields.io/badge/unity-%23808080?logo=Unity)
 ![Static Badge](https://img.shields.io/badge/C%23-%23808080?logo=C%23)
 
