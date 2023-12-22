@@ -22,6 +22,7 @@ public class mause_flow : MonoBehaviour
         if(Input.GetMouseButton(0)){    
             Vector2 mousePos = Input.mousePosition;
             if(mousePos.x < 650 && mousePos.x > 0f) transform.position = new Vector3((mousePos.x/100)-9.125f, 4,0);
+            
         }
         if (Input.GetMouseButtonUp(0)){
             drop = true;
