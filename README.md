@@ -13,6 +13,8 @@
 수박게임이 유행하며 만들면 재밌겠다고 생각하여
 만들게 되었습니다
 
+추후 고양이 버전으로 제작해 모바일 출시 할예정(?)
+
 ## UI
 ![메인페이지](https://github.com/heh-heh/watermelon_game/blob/main/%EC%88%98%EB%B0%95%EA%B2%8C%EC%9E%84.png)   
 
